@@ -5,7 +5,7 @@ import {GoHome} from 'react-icons/go'
 export const Home = () => {
   return (
     <div className='flex items-center gap-1 mt-[107px] ml-[102px]'>
-       <div> <GoHome size={22} color='grey'/></div>
+       <div> <button><GoHome size={22} color='grey'/></button></div>
        <div><FaChevronRight size={15} color="#06286E"/></div>
        <button className='text-gray-400 font-bold'>Flashcard</button>
        <div><FaChevronRight size={15} color="#06286E"/></div>
