@@ -11,10 +11,10 @@ export const Navbar = () => {
 
         {/* nav items */}
         <div className='flex items-center w-[526px] gap-[40px] mt-[27px] ml-[612px] mr-20'>
-            <p>Home</p>
-            <p>Flashcard</p>
-            <p>Contact</p>
-            <p>FAQ</p>
+            <button>Home</button>
+            <button>Flashcard</button>
+            <button>Contact</button>
+            <button>FAQ</button>
             <div className='bg-gradient-to-b from-[#06286E] to-[#164EC0] text-center text-white text-lg rounded-3xl w-32 h-12 p-3 '>
             Login
             </div>

@@ -7,11 +7,11 @@ export const Home = () => {
     <div className='flex items-center gap-1 mt-[107px] ml-[102px]'>
        <div> <GoHome size={22} color='grey'/></div>
        <div><FaChevronRight size={15} color="#06286E"/></div>
-       <p className='text-gray-400 font-bold'>Flashcard</p>
+       <button className='text-gray-400 font-bold'>Flashcard</button>
        <div><FaChevronRight size={15} color="#06286E"/></div>
-       <p className='text-gray-400 font-bold'>Mathematics</p>
+       <button className='text-gray-400 font-bold'>Mathematics</button>
        <div><FaChevronRight size={15} color="#06286E"/></div>
-       <p className='text-[#06286E] font-bold'>Relation and Function</p>
+       <button className='text-[#06286E] font-bold'>Relation and Function</button>
 
 
     </div>

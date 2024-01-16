@@ -10,15 +10,15 @@ export const FaqSection = () => {
         <div className='w-[850px]'>
             <div className=' mt-16 flex border-[#217EEC] items-center justify-between border-2 p-4 rounded-lg'>
             <p >Can education flashcards be used for all age groups?</p>
-            <FaChevronDown color='grey'/>
+            <button><FaChevronDown color='grey'/></button>
             </div>
             <div className='mt-16 flex border-[#217EEC] items-center justify-between border-2 p-4 rounded-lg'>
             <p>How do education flashcards work?</p>
-            <FaChevronDown color='grey'/>
+            <button><FaChevronDown color='grey'/></button>
             </div>
             <div className='mt-16 mb-20 flex border-[#217EEC] items-center justify-between border-2 p-4 rounded-lg'>
             <p>Can education flashcards be used for test preparation?</p>
-            <FaChevronDown color='grey'/>
+            <button><FaChevronDown color='grey'/></button>
             </div>
 
             

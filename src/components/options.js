@@ -4,13 +4,13 @@ export const Options = () => {
   return (
     <div className='flex justify-center gap-10 mt-24 '>
         <div>
-        <p className='font-bold text-[#06286E] '>Study</p>
+        <button className='font-bold text-[#06286E] '>Study</button>
         <div className='bg-[#06286E] h-[1px] mt-[4px]'></div>
         </div>
-        <p className='text-slate-500'>Quiz</p>
-        <p className='text-slate-500'>Test</p>
-        <p className='text-slate-500'>Game</p>
-        <p className='text-slate-500'>Others</p>
+        <button className='text-slate-500'>Quiz</button>
+        <button className='text-slate-500'>Test</button>
+        <button className='text-slate-500'>Game</button>
+        <button className='text-slate-500'>Others</button>
     </div>
   )
 }
